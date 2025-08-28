@@ -1,6 +1,6 @@
 module github.com/wolf-joe/ts-dns
 
-go 1.17
+go 1.23.0
 
 require (
 	github.com/BurntSushi/toml v1.2.1
@@ -12,7 +12,7 @@ require (
 	github.com/valyala/fastrand v1.0.0
 	github.com/wolf-joe/go-ipset v0.0.0-20221126092954-3bc3b2576989
 	github.com/yl2chen/cidranger v1.0.2
-	golang.org/x/net v0.0.0-20210726213435-c6fcb2dbf985
+	golang.org/x/net v0.38.0
 )
 
 require (
@@ -20,8 +20,8 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	golang.org/x/mod v0.4.2 // indirect
-	golang.org/x/sys v0.0.0-20220715151400-c0bba94af5f8 // indirect
+	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
